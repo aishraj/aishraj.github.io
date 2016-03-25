@@ -1,50 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title> on Aishraj Dahal&#39;s homepage </title>
-      <generator uri="https://gohugo.io">Hugo</generator>
+    <title>On Software and other things</title>
     <link>https://www.aishraj.com/</link>
+    <description>Recent content on On Software and other things</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>&amp;copy; Aishraj Dahal. All Rights Reserved.</copyright>
+    <lastBuildDate>Fri, 25 Mar 2016 16:53:21 +0530</lastBuildDate>
+    <atom:link href="https://www.aishraj.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <updated>Wed, 24 Jun 2015 09:46:25 &#43;0530</updated>
+    <item>
+      <title>Discovery on Github</title>
+      <link>https://www.aishraj.com/post/github-starsystem/</link>
+      <pubDate>Fri, 25 Mar 2016 16:53:21 +0530</pubDate>
+      
+      <guid>https://www.aishraj.com/post/github-starsystem/</guid>
+      <description>&lt;p&gt;Github today has sort of a monopoly when it comes to developers open sourcing their work. Be it open sourcing side projects or storing your editor/shell configurations, Github is the go to place for most people. Now this is not a post about how important (and big!) Github has become, this post is about how hard it has become to discover great open source projects on Github.&lt;/p&gt;
+
+&lt;p&gt;Based on my experience, the usual discovery process starts out in IRC/Slack/Hacker News/Stack Overflow or during conversations. For a developer spending time committing and pushing code on Github, what would help is a way to discover great open source projects on Github itself. In the absence of a real project discovery mechanism, Github has turned into one unnavigable massive ocean of open source projects. The &amp;ldquo;trending&amp;rdquo;/&amp;ldquo;explore&amp;rdquo; pages by Github are the closest to what project discovery on Github looks like. Now while the explore and trending pages are helpful, they do not have a social element attached to them. As a result, discovering projects today is tied to the number of its Github stars. The de-facto credibility of a project, irrespective of its maintenance status or project commit activity is tied to its number of stars. The impact of Github stars goes so deep into most developers&amp;rsquo; thinking today that, at times the decision of choosing to use a well written new library with fewer Github stars against choosing something that has a larger number of Github stars but a dead community, seems to be a rather unintuitive one .&lt;/p&gt;
+
+&lt;p&gt;In my opinion, it would be great if Github could recommended, newer projects or contributors to star/follow based on prior interest shown by a user. This would perhaps allow better project discovery in terms of both usage and contribution.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Why I dropped out of Stanford Ignite</title>
       <link>https://www.aishraj.com/post/stanford-ignite/</link>
-      <pubDate>Wed, 24 Jun 2015 09:46:25 &#43;0530</pubDate>
+      <pubDate>Wed, 24 Jun 2015 09:46:25 +0530</pubDate>
       
       <guid>https://www.aishraj.com/post/stanford-ignite/</guid>
-      <description>January 2015 was interesting month in many respects. First, I had just completed a two week long train journey covering all corners of India. Next, after spending about two years in the fintech world, I came to accept the fact that it was time for me to explore other domains. In between all this, something unexpected happened. Sometime late the previous year, I had applied for the Stanford Graduate School of Business&amp;rsquo;s Stanford Ignite program.</description>
+      <description>&lt;p&gt;January 2015 was interesting month in many respects. First, I had just completed a two week long train journey covering all corners of India.
+Next, after spending about two years in the fintech world, I came to accept the fact that it was time for me to explore other domains.&lt;/p&gt;
+
+&lt;p&gt;In between all this, something unexpected happened. Sometime late the previous year, I had applied for the Stanford Graduate School of Business&amp;rsquo;s Stanford Ignite program.
+The idea of being with hand picked smart people and being able to network with them over the weekend, and most importantly being taught by the Stanford faculty lured me into applying for it.
+And when Stanford decided to provide me with additional scholarship to attend the program, I was happy beyond my imagination.
+Little, had I known that I&amp;rsquo;d end up dropping out of the program a week before it started.&lt;/p&gt;
+
+&lt;p&gt;My dropout story started during the Jagriti Yatra, where I came across several entrepreneurs from all walks of life. The diversity in the class of &amp;ldquo;micro entrepreneurs&amp;rdquo; attending the train journey ignited the feeling within me that the skills of entrepreneurship are perhaps better learnt in real life than in classrooms.
+And perhaps, it&amp;rsquo;s wiser to learn a thing or two from an entrepreneur who&amp;rsquo;s seen the shit hit the fan, and recovered his/her business than to learn a thousand different things from a B-school professor who&amp;rsquo;s had no similar experience.&lt;/p&gt;
+
+&lt;p&gt;With all this going on inside my head, I ended up having two offers from two of the finest startups in India. Both of them were graduates of the famous Silicon Valley incubator, Y Combinator.
+After multiple twists and turns in deciding among the two offers, and moving back to Nepal to start something of my own, I decided to go for my current employer, mostly because of the vision the founders offered.&lt;/p&gt;
+
+&lt;p&gt;And it&amp;rsquo;s been around four months since I joined, and it&amp;rsquo;s been a fun journey. I&amp;rsquo;ve learned more about growth, shipping fast, talking to the customers perhaps more than what I would I have learnt in the Ignite program.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Bon voyage</title>
       <link>https://www.aishraj.com/post/bon-voyage/</link>
-      <pubDate>Sat, 11 Apr 2015 16:57:37 &#43;0530</pubDate>
+      <pubDate>Sat, 11 Apr 2015 16:57:37 +0530</pubDate>
       
       <guid>https://www.aishraj.com/post/bon-voyage/</guid>
-      <description>“Whatever grows will grow, Whatever dies will die Whatever works will work Whatever flies will fly, Whatever fails will fail What’s meant to soar will soar, I am planting seeds nothing more” As the crowd started to sing along the chorus, the singer, a Wharton educated young man who gave up a career on Wall Street to find his purpose in serving others slowly waved back and sang along. Soon, the song got over and the audience of four hundred odd, 20 somethings applauded cherishing the moment.</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>https://www.aishraj.com/about/</link>
-      <pubDate>Sat, 11 Apr 2015 16:05:15 &#43;0530</pubDate>
-      
-      <guid>https://www.aishraj.com/about/</guid>
-      <description>My name is Aishraj Dahal. I am full stack developer from Nepal, living in Bangalore, India. I&amp;rsquo;ve been hacking around computers since I was twelve and still do it for fun and for a living. Whenever I&amp;rsquo;m not glued to my computer hacking on something interesting, I read, travel and write. In case you&amp;rsquo;d like to litter my inbox, send me an email at [first four letters of my name]@[domain].com.</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://www.aishraj.com/contact/</link>
-      <pubDate>Sun, 09 Nov 2014 13:49:44 &#43;0400</pubDate>
-      
-      <guid>https://www.aishraj.com/contact/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;em&gt;“Whatever grows will grow,&lt;br /&gt;
+Whatever dies will die&lt;br /&gt;
+Whatever works will work&lt;br /&gt;
+Whatever flies will fly,&lt;br /&gt;
+Whatever fails will fail&lt;br /&gt;
+What’s meant to soar will soar,&lt;br /&gt;
+I am planting seeds nothing more”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;As the crowd started to sing along the chorus, the singer, a Wharton educated young man who gave up a career on Wall Street to find his purpose in serving others slowly waved back and sang along. Soon, the song got over and the audience of four hundred odd,  20 somethings applauded cherishing the moment. This was one of the several moments that made an impact on me and had a strong calling to participate in social enterprises in the 8000 kilometers long annual train journey - Jagriti Yatra.&lt;/p&gt;
+
+&lt;p&gt;Jagriti Yatra is a fifteen day long journey across India covering more than 8000 kilometers. During the course of the journey, participants, fondly called Yatris, stop by towns in cities in both urban and rural India meeting social entrepreneurs and learning about their ventures. While social entrepreneurship and enterprise led development are the primary themes of the journey, a major theme of the journey is what is usually dubbed as “the inner journey”, or the self discovery. Meeting hundreds of people from diverse background, all the way from San Francisco in the United States to Tilonia in Rajasthan, India; spending a considerable time in bonding with the peers and being involved in intellectual discussions on development is what forms most of the later.&lt;/p&gt;
+
+&lt;p&gt;Like the past years, the 2014 Jagriti Yatra started on a chilly Christmas eve at the Tata Institute of Social Sciences in Mumbai. As the inaugural program proceeded, the chief guest, Meera Sanyal made a statement saying “&amp;hellip;your lives will be changed and you will form friendships that will last for the rest of your lives…”. Little had most people in the audience known that this statement would come true for them.&lt;/p&gt;
+
+&lt;p&gt;An hour after midnight of the Christmas day, the train arrived at the platform on Lokmanya Tilak Terminus, two hours behind its original schedule. Tired and exhausted, the participants made their way into their pre allocated bogies, their homes for next two weeks. What was in store for the yatris was a lifetime of learning which could hardly by purely academic means.&lt;/p&gt;
+
+&lt;p&gt;The yatra served not only as a platform to gain inspiration for enterprise led development, but also provided a wide diaspora of people whose stories inspired during the journey in the train and even beyond. From, meeting the truly inspirational “Solar Engineers” from Barefoot College; old grandmothers who’ve travelled all the way across the world to get training at a small village named Tilonia in Rajasthan, to visiting the ancient Nalanda ruins, the Yatra helped the yatris sketch out a vision for a much prosperous future.
+In many ways, the interactions in the Yatra can be compared to living through an experience which can be possibly be only analogous to the “people stories”  illustrated in Humans of New York.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Cross posted to &lt;a href=&#34;http://nitw101.com/&#34;&gt;NIT Warangal 101&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
 </rss>
-
