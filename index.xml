@@ -6,7 +6,6 @@
     <description>Recent content on On Software and other things</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; Aishraj Dahal. All Rights Reserved.</copyright>
     <lastBuildDate>Sat, 18 Jun 2016 09:50:57 -0700</lastBuildDate>
     <atom:link href="https://www.aishraj.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -91,6 +90,20 @@ I am planting seeds nothing more”&lt;/em&gt;&lt;/p&gt;
 In many ways, the interactions in the Yatra can be compared to living through an experience which can be possibly be only analogous to the “people stories”  illustrated in Humans of New York.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Cross posted to &lt;a href=&#34;http://nitw101.com/&#34;&gt;NIT Warangal 101&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://www.aishraj.com/about/</link>
+      <pubDate>Sat, 11 Apr 2015 16:05:15 +0530</pubDate>
+      
+      <guid>https://www.aishraj.com/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m Aish. I&amp;rsquo;m a software engineer.&lt;/p&gt;
+
+&lt;p&gt;I like working with distributed sytems, particlarly around applications of consensus (think queues, caches, and databases of all sorts) and proof of work (think Blochain applications).&lt;/p&gt;
+
+&lt;p&gt;You can reach out to me on Twitter at @aishrajdahal.&lt;/p&gt;
 </description>
     </item>
     
