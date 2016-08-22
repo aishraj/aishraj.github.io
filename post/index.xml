@@ -6,8 +6,19 @@
     <description>Recent content in Posts on On Software and other things</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Jun 2016 09:50:57 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 21 Aug 2016 17:53:34 -0700</lastBuildDate>
     <atom:link href="https://www.aishraj.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Side projects</title>
+      <link>https://www.aishraj.com/post/side-projects/</link>
+      <pubDate>Sun, 21 Aug 2016 17:53:34 -0700</pubDate>
+      
+      <guid>https://www.aishraj.com/post/side-projects/</guid>
+      <description>&lt;p&gt;At times, people look at me with bizarre bewilderment when I say that I had a great time hacking a side  project on a weekend. For someone not in the creative world, doing something that is done for their day job without getting paid  seems like a crazy idea. Paul Graham, in his now famous essay, &lt;a href=&#34;http://www.paulgraham.com/hp.html&#34;&gt;&lt;em&gt;Hackers and Painters&lt;/em&gt;&lt;/a&gt; talks about how hackers, like painters and composers, are &amp;ldquo;makers&amp;rdquo;. Most &amp;ldquo;makers&amp;rdquo;, unlike administrators attain perfection by performing gradual refinement of their work.
+Just as a composer composing a melody draws joy by changing a few notes to make the melody better, hackers derive happiness by building hardware/software that simplifies human life. Perhaps, it is this joy of building something useful, that motivates hackers to  hack a solution, even if it means doing this in their &amp;ldquo;own time.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Do you need a LinkedIn account ?</title>
