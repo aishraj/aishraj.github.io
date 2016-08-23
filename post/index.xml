@@ -6,8 +6,18 @@
     <description>Recent content in Posts on On Software and other things</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Aug 2016 17:53:34 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 22 Aug 2016 21:54:41 -0700</lastBuildDate>
     <atom:link href="https://www.aishraj.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Debugging</title>
+      <link>https://www.aishraj.com/post/debugging/</link>
+      <pubDate>Mon, 22 Aug 2016 21:54:41 -0700</pubDate>
+      
+      <guid>https://www.aishraj.com/post/debugging/</guid>
+      <description>&lt;p&gt;The art of debugging is certainly an underrated art in the software industry today. As the startups of yesteryears turn into the bigger corporations of tomorrow the amount of debugging required to find and fix bugs in existing pieces of code will be more relevant in the years to come. With the ever changing landscape of software, perhaps the day is not far when corporations of tomorrow ask a candidate to debug an existing piece of code or to perhaps improve the efficiency of the same, as an interview exercise.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Side projects</title>
