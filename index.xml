@@ -6,8 +6,30 @@
     <description>Recent content on On Software and other things</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 22 Aug 2016 21:54:41 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 18 Sep 2016 21:25:23 -0700</lastBuildDate>
     <atom:link href="https://www.aishraj.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Service discovery with mDNS, Raspberry Pi and Go</title>
+      <link>https://www.aishraj.com/post/service-discovery-with-mdns-raspberry-pi-and-go/</link>
+      <pubDate>Sun, 18 Sep 2016 21:25:23 -0700</pubDate>
+      
+      <guid>https://www.aishraj.com/post/service-discovery-with-mdns-raspberry-pi-and-go/</guid>
+      <description>&lt;p&gt;Today, yet again, I re-formatted by Raspberry Pi. It has become a sort of a ritual for me to format my Raspberry Pi and try out something new on it. This time around however, as I had moved to a new apartment, logging into my Raspberry Pi meant that I had to change my &lt;code&gt;/etc/hosts&lt;/code&gt; mapping.&lt;/p&gt;
+
+&lt;p&gt;Now, /etc/hosts mapping had served my well but I had grown tired of updating this file, every time moved to a new place, despite of the static IPs that I assign. After digging around on the Internet I figured out that setting up an Avahi like zeroconf tool would probably be the best solution for my problem.&lt;/p&gt;
+
+&lt;p&gt;While I was thinking of doing this, it occurred to me that I probably didn&amp;rsquo;t need all of the nice things that Avahi brings. All I needed was way to SSH into my raspberry pi without knowing its IP address. And that&amp;rsquo;s when I ended up doing something like &lt;a href=&#34;https://xkcd.com/1319/&#34;&gt;this xkcd cartoon&lt;/a&gt; .&lt;/p&gt;
+
+&lt;p&gt;I started out with &lt;a href=&#34;https://github.com/hashicorp/mdns&#34;&gt;Hashicorp&amp;rsquo;s mDNS library in Go&lt;/a&gt;. Soon, I felt that I might run off multiple services in my Raspberry pi, and as the library did not seem to support this, I decided to create a fork and add the functionality to it. Once this was done, I cross compiled the binary on my Mac and scp&amp;rsquo;ed the binary to my Raspberry pi.&lt;/p&gt;
+
+&lt;p&gt;After spending a few more minutes fighting with &lt;code&gt;systemd&lt;/code&gt; I finally managed to log in to my Raspberry pi without knowing its IP.&lt;/p&gt;
+
+&lt;p&gt;As a bonus, I also figured out that my housemate&amp;rsquo;s Nexus device performs periodic mDNS lookups for Chromcast devices on the network. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;PS: You can find the Github repo for my mDNS service, &lt;a href=&#34;https://github.com/aishraj/lemur&#34;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Debugging</title>

@@ -3,8 +3,13 @@
   
   <url>
     <loc>https://www.aishraj.com/</loc>
-    <lastmod>2016-08-22T21:54:41-07:00</lastmod>
+    <lastmod>2016-09-18T21:25:23-07:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.aishraj.com/post/service-discovery-with-mdns-raspberry-pi-and-go/</loc>
+    <lastmod>2016-09-18T21:25:23-07:00</lastmod>
   </url>
   
   <url>

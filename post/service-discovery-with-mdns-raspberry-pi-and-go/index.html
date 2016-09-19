@@ -7,7 +7,7 @@
 		<meta name="author" content="Aishraj Dahal">
 		<meta name="description" content="On software and other things.">
 		<meta name="generator" content="Hugo 0.15" />
-		<title>Side projects &middot; On Software and other things</title>
+		<title>Service discovery with mDNS, Raspberry Pi and Go &middot; On Software and other things</title>
 		<link rel="shortcut icon" href="https://www.aishraj.com/images/favicon.ico">
 		<link rel="stylesheet" href="https://www.aishraj.com/css/style.css">
 		<link rel="stylesheet" href="https://www.aishraj.com/css/highlight.css">
@@ -41,16 +41,27 @@
         <section id="wrapper">
             <article class="post">
                 <header>
-                    <h1>Side projects</h1>
+                    <h1>Service discovery with mDNS, Raspberry Pi and Go</h1>
                     <h2 class="headline">
-                    August 21, 2016 
+                    September 18, 2016 
                     <br>
                     
                     </h2>
                 </header>
                 <section id="post-body">
-                    <p>At times, people look at me with bizarre bewilderment when I say that I had a great time hacking a side  project on a weekend. For someone not in the creative world, doing something that is done for their day job without getting paid  seems like a crazy idea. Paul Graham, in his now famous essay, <a href="http://www.paulgraham.com/hp.html"><em>Hackers and Painters</em></a> talks about how hackers, like painters and composers, are &ldquo;makers&rdquo;. Most &ldquo;makers&rdquo;, unlike administrators attain perfection by performing gradual refinement of their work.
-Just as a composer composing a melody draws joy by changing a few notes to make the melody better, hackers derive happiness by building hardware/software that simplifies human life. Perhaps, it is this joy of building something useful, that motivates hackers to  hack a solution, even if it means doing this in their &ldquo;own time.</p>
+                    <p>Today, yet again, I re-formatted by Raspberry Pi. It has become a sort of a ritual for me to format my Raspberry Pi and try out something new on it. This time around however, as I had moved to a new apartment, logging into my Raspberry Pi meant that I had to change my <code>/etc/hosts</code> mapping.</p>
+
+<p>Now, /etc/hosts mapping had served my well but I had grown tired of updating this file, every time moved to a new place, despite of the static IPs that I assign. After digging around on the Internet I figured out that setting up an Avahi like zeroconf tool would probably be the best solution for my problem.</p>
+
+<p>While I was thinking of doing this, it occurred to me that I probably didn&rsquo;t need all of the nice things that Avahi brings. All I needed was way to SSH into my raspberry pi without knowing its IP address. And that&rsquo;s when I ended up doing something like <a href="https://xkcd.com/1319/">this xkcd cartoon</a> .</p>
+
+<p>I started out with <a href="https://github.com/hashicorp/mdns">Hashicorp&rsquo;s mDNS library in Go</a>. Soon, I felt that I might run off multiple services in my Raspberry pi, and as the library did not seem to support this, I decided to create a fork and add the functionality to it. Once this was done, I cross compiled the binary on my Mac and scp&rsquo;ed the binary to my Raspberry pi.</p>
+
+<p>After spending a few more minutes fighting with <code>systemd</code> I finally managed to log in to my Raspberry pi without knowing its IP.</p>
+
+<p>As a bonus, I also figured out that my housemate&rsquo;s Nexus device performs periodic mDNS lookups for Chromcast devices on the network. :)</p>
+
+<p><em>PS: You can find the Github repo for my mDNS service, <a href="https://github.com/aishraj/lemur">here</a></em></p>
 
                 </section>
             </article>
@@ -63,7 +74,7 @@ Just as a composer composing a melody draws joy by changing a few notes to make 
                         </div>
                     </a>
                 <section id="sharing">
-                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.aishraj.com%2fpost%2fside-projects%2f - Side%20projects by @aishrajdahal"><span class="icon-twitter"> Tweet</span></a>
+                    <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fwww.aishraj.com%2fpost%2fservice-discovery-with-mdns-raspberry-pi-and-go%2f - Service%20discovery%20with%20mDNS%2c%20Raspberry%20Pi%20and%20Go by @aishrajdahal"><span class="icon-twitter"> Tweet</span></a>
 
 <a class="facebook" href="#" onclick="
     window.open(
