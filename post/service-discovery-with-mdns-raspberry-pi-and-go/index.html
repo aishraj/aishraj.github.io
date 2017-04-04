@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="author" content="Aishraj Dahal">
 		<meta name="description" content="On software and other things.">
-		<meta name="generator" content="Hugo 0.15" />
+		<meta name="generator" content="Hugo 0.19" />
 		<title>Service discovery with mDNS, Raspberry Pi and Go &middot; On Software and other things</title>
 		<link rel="shortcut icon" href="https://www.aishraj.com/images/favicon.ico">
 		<link rel="stylesheet" href="https://www.aishraj.com/css/style.css">
@@ -20,6 +20,54 @@
 		
 		<link href="https://www.aishraj.com/index.xml" rel="alternate" type="application/rss+xml" title="On Software and other things" />
 		
+
+		<meta property="og:title" content="Service discovery with mDNS, Raspberry Pi and Go" />
+<meta property="og:description" content="Today, yet again, I re-formatted by Raspberry Pi. It has become a sort of a ritual for me to format my Raspberry Pi and try out something new on it. This time around however, as I had moved to a new apartment, logging into my Raspberry Pi meant that I had to change my /etc/hosts mapping.
+Now, /etc/hosts mapping had served my well but I had grown tired of updating this file, every time moved to a new place, despite of the static IPs that I assign." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.aishraj.com/post/service-discovery-with-mdns-raspberry-pi-and-go/" />
+
+
+
+<meta property="article:published_time" content="2016-09-18T20:54:13-07:00"/>
+<meta property="article:modified_time" content="2016-09-18T20:54:13-07:00"/>
+
+
+
+
+
+
+
+
+
+
+
+	    
+	    
+<meta itemprop="name" content="Service discovery with mDNS, Raspberry Pi and Go">
+<meta itemprop="description" content="Today, yet again, I re-formatted by Raspberry Pi. It has become a sort of a ritual for me to format my Raspberry Pi and try out something new on it. This time around however, as I had moved to a new apartment, logging into my Raspberry Pi meant that I had to change my /etc/hosts mapping.
+Now, /etc/hosts mapping had served my well but I had grown tired of updating this file, every time moved to a new place, despite of the static IPs that I assign.">
+
+
+<meta itemprop="dateModified" content="2016-09-18T20:54:13-07:00" />
+<meta itemprop="wordCount" content="289">
+
+
+
+<meta itemprop="keywords" content="founders,indian-railways,jagriti-yatra,stanford,travel,y-combinator," />
+
+	    
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:text:title" content="Service discovery with mDNS, Raspberry Pi and Go"/>
+<meta name="twitter:title" content="Service discovery with mDNS, Raspberry Pi and Go"/>
+<meta name="twitter:description" content="Today, yet again, I re-formatted by Raspberry Pi. It has become a sort of a ritual for me to format my Raspberry Pi and try out something new on it. This time around however, as I had moved to a new apartment, logging into my Raspberry Pi meant that I had to change my /etc/hosts mapping.
+Now, /etc/hosts mapping had served my well but I had grown tired of updating this file, every time moved to a new place, despite of the static IPs that I assign."/>
+<meta name="twitter:site" content="@https://www.twitter.com/aishrajdahal"/>
+
 	</head>
 
     <body>
@@ -43,7 +91,7 @@
                 <header>
                     <h1>Service discovery with mDNS, Raspberry Pi and Go</h1>
                     <h2 class="headline">
-                    September 18, 2016 
+                    September 18, 2016
                     <br>
                     
                     </h2>
@@ -53,13 +101,13 @@
 
 <p>Now, <code>/etc/hosts</code> mapping had served my well but I had grown tired of updating this file, every time moved to a new place, despite of the static IPs that I assign. After digging around on the Internet I figured out that setting up an Avahi like zeroconf tool would probably be the best solution for my problem.</p>
 
-<p>While I was thinking of doing this, it occurred to me that I probably didn&rsquo;t need all of the nice things that Avahi brings. All I needed was way to SSH into my raspberry pi without knowing its IP address. And that&rsquo;s when I ended up doing something like <a href="https://xkcd.com/1319/">this xkcd cartoon</a> .</p>
+<p>While I was thinking of doing this, it occurred to me that I probably didn’t need all of the nice things that Avahi brings. All I needed was way to SSH into my raspberry pi without knowing its IP address. And that’s when I ended up doing something like <a href="https://xkcd.com/1319/">this xkcd cartoon</a> .</p>
 
-<p>I started out with <a href="https://github.com/hashicorp/mdns">Hashicorp&rsquo;s mDNS library in Go</a>. Soon, I felt that I might run off multiple services in my Raspberry pi, and as the library did not seem to support this, I decided to create a fork and add the functionality to it. Once this was done, I cross compiled the binary on my Mac and scp&rsquo;ed the binary to my Raspberry pi.</p>
+<p>I started out with <a href="https://github.com/hashicorp/mdns">Hashicorp’s mDNS library in Go</a>. Soon, I felt that I might run off multiple services in my Raspberry pi, and as the library did not seem to support this, I decided to create a fork and add the functionality to it. Once this was done, I cross compiled the binary on my Mac and scp’ed the binary to my Raspberry pi.</p>
 
 <p>After spending a few more minutes fighting with <code>systemd</code> I finally managed to log in to my Raspberry pi without knowing its IP.</p>
 
-<p>As a bonus, I also figured out that my housemate&rsquo;s Nexus device performs periodic mDNS lookups for Chromcast devices on the network. :)</p>
+<p>As a bonus, I also figured out that my housemate’s Nexus device performs periodic mDNS lookups for Chromcast devices on the network. :)</p>
 
 <p><em>PS: You can find the Github repo for my mDNS service, <a href="https://github.com/aishraj/mdns">here</a></em></p>
 
@@ -67,7 +115,7 @@
             </article>
             <footer id="post-meta" class="clearfix">
                 <a href="https://twitter.com/aishrajdahal">
-                    <img class="avatar" src="https://gravatar.com/avatar/a9f0a49858f056a56a6b7b6307c0e61f">
+                        <img class="avatar" src="https://gravatar.com/avatar/a9f0a49858f056a56a6b7b6307c0e61f?s=200">
                         <div>
                             <span class="dark">Aishraj Dahal</span>
                             <span></span>
@@ -91,6 +139,8 @@
 
             <ul id="post-list" class="archive readmore">
     <h3>Read more</h3>
+
+    
     
     
         
@@ -109,7 +159,7 @@
     
         
         <li>
-            <a href="https://www.aishraj.com/post/side-projects/">Side projects<aside class="dates">Aug 21</aside></a>
+            <a href="https://www.aishraj.com/post/side-projects/">Side Projects<aside class="dates">Aug 21</aside></a>
         </li>
         
    
@@ -145,6 +195,7 @@
         
    
 </ul>
+
             <footer id="footer">
     
         <div id="social">
@@ -167,7 +218,7 @@
     
     <p class="small">
     
-        © Copyright 2016 Aishraj Dahal
+        © Copyright 2017 Aishraj Dahal
     
     </p>
 </footer>
@@ -186,7 +237,7 @@
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
 ga('create', 'UA-20524803-3', 'auto');
 ga('send', 'pageview');
