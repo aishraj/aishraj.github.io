@@ -2,12 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>On Software and other things</title>
-    <link>https://blog.aish.io/index.xml</link>
+    <link>https://blog.aish.io/</link>
     <description>Recent content on On Software and other things</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 18 Sep 2016 20:54:13 -0700</lastBuildDate>
-    <atom:link href="https://blog.aish.io/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://blog.aish.io/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Service discovery with mDNS, Raspberry Pi and Go</title>
@@ -15,20 +17,8 @@
       <pubDate>Sun, 18 Sep 2016 20:54:13 -0700</pubDate>
       
       <guid>https://blog.aish.io/post/service-discovery-with-mdns-raspberry-pi-and-go/</guid>
-      <description>&lt;p&gt;Today, yet again, I re-formatted by Raspberry Pi. It has become a sort of a ritual for me to format my Raspberry Pi and try out something new on it. This time around however, as I had moved to a new apartment, logging into my Raspberry Pi meant that I had to change my &lt;code&gt;/etc/hosts&lt;/code&gt; mapping.&lt;/p&gt;
-
-&lt;p&gt;Now, &lt;code&gt;/etc/hosts&lt;/code&gt; mapping had served my well but I had grown tired of updating this file, every time moved to a new place, despite of the static IPs that I assign. After digging around on the Internet I figured out that setting up an Avahi like zeroconf tool would probably be the best solution for my problem.&lt;/p&gt;
-
-&lt;p&gt;While I was thinking of doing this, it occurred to me that I probably didn’t need all of the nice things that Avahi brings. All I needed was way to SSH into my raspberry pi without knowing its IP address. And that’s when I ended up doing something like &lt;a href=&#34;https://xkcd.com/1319/&#34;&gt;this xkcd cartoon&lt;/a&gt; .&lt;/p&gt;
-
-&lt;p&gt;I started out with &lt;a href=&#34;https://github.com/hashicorp/mdns&#34;&gt;Hashicorp’s mDNS library in Go&lt;/a&gt;. Soon, I felt that I might run off multiple services in my Raspberry pi, and as the library did not seem to support this, I decided to create a fork and add the functionality to it. Once this was done, I cross compiled the binary on my Mac and scp’ed the binary to my Raspberry pi.&lt;/p&gt;
-
-&lt;p&gt;After spending a few more minutes fighting with &lt;code&gt;systemd&lt;/code&gt; I finally managed to log in to my Raspberry pi without knowing its IP.&lt;/p&gt;
-
-&lt;p&gt;As a bonus, I also figured out that my housemate’s Nexus device performs periodic mDNS lookups for Chromcast devices on the network. :)&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;PS: You can find the Github repo for my mDNS service, &lt;a href=&#34;https://github.com/aishraj/mdns&#34;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>Today, yet again, I re-formatted by Raspberry Pi. It has become a sort of a ritual for me to format my Raspberry Pi and try out something new on it. This time around however, as I had moved to a new apartment, logging into my Raspberry Pi meant that I had to change my /etc/hosts mapping.
+Now, /etc/hosts mapping had served my well but I had grown tired of updating this file, every time moved to a new place, despite of the static IPs that I assign.</description>
     </item>
     
     <item>
@@ -37,8 +27,7 @@
       <pubDate>Mon, 22 Aug 2016 20:51:05 -0700</pubDate>
       
       <guid>https://blog.aish.io/post/debugging/</guid>
-      <description>&lt;p&gt;The art of debugging is certainly an underrated art in the software industry today. As the startups of yesteryears turn into the bigger corporations of tomorrow the amount of debugging required to find and fix bugs in existing pieces of code will be more relevant in the years to come. With the ever changing landscape of software, perhaps the day is not far when corporations of tomorrow ask a candidate to debug an existing piece of code or to perhaps improve the efficiency of the same, as an interview exercise.&lt;/p&gt;
-</description>
+      <description>The art of debugging is certainly an underrated art in the software industry today. As the startups of yesteryears turn into the bigger corporations of tomorrow the amount of debugging required to find and fix bugs in existing pieces of code will be more relevant in the years to come. With the ever changing landscape of software, perhaps the day is not far when corporations of tomorrow ask a candidate to debug an existing piece of code or to perhaps improve the efficiency of the same, as an interview exercise.</description>
     </item>
     
     <item>
@@ -47,8 +36,7 @@
       <pubDate>Sun, 21 Aug 2016 20:49:32 -0700</pubDate>
       
       <guid>https://blog.aish.io/post/side-projects/</guid>
-      <description>&lt;p&gt;At times, people look at me with bizarre bewilderment when I say that I had a great time hacking a side project on a weekend. For someone not in the creative world, doing something that is done for their day job without getting paid seems like a crazy idea. Paul Graham, in his now famous essay, &lt;a href=&#34;http://www.paulgraham.com/hp.html&#34;&gt;&lt;em&gt;Hackers and Painters&lt;/em&gt;&lt;/a&gt; talks about how hackers, like painters and composers, are “makers”. Most “makers”, unlike administrators attain perfection by performing gradual refinement of their work. Just as a composer composing a melody draws joy by changing a few notes to make the melody better, hackers derive happiness by building hardware/software that simplifies human life. Perhaps, it is this joy of building something useful, that motivates hackers to hack a solution, even if it means doing this in their “own time.&lt;/p&gt;
-</description>
+      <description>At times, people look at me with bizarre bewilderment when I say that I had a great time hacking a side project on a weekend. For someone not in the creative world, doing something that is done for their day job without getting paid seems like a crazy idea. Paul Graham, in his now famous essay, Hackers and Painters talks about how hackers, like painters and composers, are “makers”. Most “makers”, unlike administrators attain perfection by performing gradual refinement of their work.</description>
     </item>
     
     <item>
@@ -57,15 +45,8 @@
       <pubDate>Sat, 18 Jun 2016 09:50:57 -0700</pubDate>
       
       <guid>https://blog.aish.io/post/do-you-need-a-linkedin-account/</guid>
-      <description>&lt;p&gt;&amp;lt;rant&amp;gt;&lt;/p&gt;
-
-&lt;p&gt;After continuously questioning the value brought to me by my LinkedIn account, I finally deleted my LinkedIn account last week. The feeling of deleting my LinkedIn account was very liberating. Unlike other social network on the Internet that brought some value to me, my LinkedIn account was a constant source of recruitroll email. Sourcing agencies and  recruitrolls from places which I&amp;rsquo;d not heard of sent a constant request to &amp;ldquo;add me as a connection&amp;rdquo;. The sheer number of people who end up being your 1st degree LinkedIn connections is so high that the platform has completely lost its value. Think about it yourself, when was the last time you heard a recruiter  successfully hire a good candidate via LinkedIn ? When was the last time you used LinkedIn&amp;rsquo;s messaging to reach out to someone in your network as opposed to email or Twitter ?  When was the last time a set of skills mentioned on LinkedIn help someone stand out from others ?&lt;/p&gt;
-
-&lt;p&gt;As someone who works in the tech industry and writes code for a living, the LinkedIn recommendations don&amp;rsquo;t mean a thing to me or for most people in the industry I work with. LinkedIn neither serves as a good gauge of someone&amp;rsquo;s professional qualities nor as a way of keeping in touch. Going forward, I&amp;rsquo;ve decided to keep in  touch via Twitter(@aishrajdahal) and showcase my professional qualities via open source contributions/projects. Therefore, until Microsoft injects a magic
-potion into LinkedIn to help it add value to my professional life, I would stay away from it.&lt;/p&gt;
-
-&lt;p&gt;&amp;lt;/rant&amp;gt;&lt;/p&gt;
-</description>
+      <description>&amp;lt;rant&amp;gt;
+After continuously questioning the value brought to me by my LinkedIn account, I finally deleted my LinkedIn account last week. The feeling of deleting my LinkedIn account was very liberating. Unlike other social network on the Internet that brought some value to me, my LinkedIn account was a constant source of recruitroll email. Sourcing agencies and recruitrolls from places which I&amp;rsquo;d not heard of sent a constant request to &amp;ldquo;add me as a connection&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -74,12 +55,8 @@ potion into LinkedIn to help it add value to my professional life, I would stay 
       <pubDate>Fri, 25 Mar 2016 16:53:21 +0530</pubDate>
       
       <guid>https://blog.aish.io/post/github-starsystem/</guid>
-      <description>&lt;p&gt;Github today has sort of a monopoly when it comes to developers open sourcing their work. Be it open sourcing side projects or storing your editor/shell configurations, Github is the go to place for most people. Now this is not a post about how important (and big!) Github has become, this post is about how hard it has become to discover great open source projects on Github.&lt;/p&gt;
-
-&lt;p&gt;Based on my experience, the usual discovery process starts out in IRC/Slack/Hacker News/Stack Overflow or during conversations. For a developer spending time committing and pushing code on Github, what would help is a way to discover great open source projects on Github itself. In the absence of a real project discovery mechanism, Github has turned into one unnavigable massive ocean of open source projects. The &amp;ldquo;trending&amp;rdquo;/&amp;ldquo;explore&amp;rdquo; pages by Github are the closest to what project discovery on Github looks like. Now while the explore and trending pages are helpful, they do not have a social element attached to them. As a result, discovering projects today is tied to the number of its Github stars. The de-facto credibility of a project, irrespective of its maintenance status or project commit activity is tied to its number of stars. The impact of Github stars goes so deep into most developers&amp;rsquo; thinking today that, at times the decision of choosing to use a well written new library with fewer Github stars against choosing something that has a larger number of Github stars but a dead community, seems to be a rather unintuitive one .&lt;/p&gt;
-
-&lt;p&gt;In my opinion, it would be great if Github could recommended, newer projects or contributors to star/follow based on prior interest shown by a user. This would perhaps allow better project discovery in terms of both usage and contribution.&lt;/p&gt;
-</description>
+      <description>Github today has sort of a monopoly when it comes to developers open sourcing their work. Be it open sourcing side projects or storing your editor/shell configurations, Github is the go to place for most people. Now this is not a post about how important (and big!) Github has become, this post is about how hard it has become to discover great open source projects on Github.
+Based on my experience, the usual discovery process starts out in IRC/Slack/Hacker News/Stack Overflow or during conversations.</description>
     </item>
     
     <item>
@@ -88,22 +65,8 @@ potion into LinkedIn to help it add value to my professional life, I would stay 
       <pubDate>Wed, 24 Jun 2015 09:46:25 +0530</pubDate>
       
       <guid>https://blog.aish.io/post/stanford-ignite/</guid>
-      <description>&lt;p&gt;January 2015 was interesting month in many respects. First, I had just completed a two week long train journey covering all corners of India.
-Next, after spending about two years in the fintech world, I came to accept the fact that it was time for me to explore other domains.&lt;/p&gt;
-
-&lt;p&gt;In between all this, something unexpected happened. Sometime late the previous year, I had applied for the Stanford Graduate School of Business&amp;rsquo;s Stanford Ignite program.
-The idea of being with hand picked smart people and being able to network with them over the weekend, and most importantly being taught by the Stanford faculty lured me into applying for it.
-And when Stanford decided to provide me with additional scholarship to attend the program, I was happy beyond my imagination.
-Little, had I known that I&amp;rsquo;d end up dropping out of the program a week before it started.&lt;/p&gt;
-
-&lt;p&gt;My dropout story started during the Jagriti Yatra, where I came across several entrepreneurs from all walks of life. The diversity in the class of &amp;ldquo;micro entrepreneurs&amp;rdquo; attending the train journey ignited the feeling within me that the skills of entrepreneurship are perhaps better learnt in real life than in classrooms.
-And perhaps, it&amp;rsquo;s wiser to learn a thing or two from an entrepreneur who&amp;rsquo;s seen the shit hit the fan, and recovered his/her business than to learn a thousand different things from a B-school professor who&amp;rsquo;s had no similar experience.&lt;/p&gt;
-
-&lt;p&gt;With all this going on inside my head, I ended up having two offers from two of the finest startups in India. Both of them were graduates of the famous Silicon Valley incubator, Y Combinator.
-After multiple twists and turns in deciding among the two offers, and moving back to Nepal to start something of my own, I decided to go for my current employer, mostly because of the vision the founders offered.&lt;/p&gt;
-
-&lt;p&gt;And it&amp;rsquo;s been around four months since I joined, and it&amp;rsquo;s been a fun journey. I&amp;rsquo;ve learned more about growth, shipping fast, talking to the customers perhaps more than what I would I have learnt in the Ignite program.&lt;/p&gt;
-</description>
+      <description>January 2015 was interesting month in many respects. First, I had just completed a two week long train journey covering all corners of India. Next, after spending about two years in the fintech world, I came to accept the fact that it was time for me to explore other domains.
+In between all this, something unexpected happened. Sometime late the previous year, I had applied for the Stanford Graduate School of Business&amp;rsquo;s Stanford Ignite program.</description>
     </item>
     
     <item>
@@ -112,27 +75,14 @@ After multiple twists and turns in deciding among the two offers, and moving bac
       <pubDate>Sat, 11 Apr 2015 16:57:37 +0530</pubDate>
       
       <guid>https://blog.aish.io/post/bon-voyage/</guid>
-      <description>&lt;p&gt;&lt;em&gt;“Whatever grows will grow,&lt;br /&gt;
-Whatever dies will die&lt;br /&gt;
-Whatever works will work&lt;br /&gt;
-Whatever flies will fly,&lt;br /&gt;
-Whatever fails will fail&lt;br /&gt;
-What’s meant to soar will soar,&lt;br /&gt;
-I am planting seeds nothing more”&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;As the crowd started to sing along the chorus, the singer, a Wharton educated young man who gave up a career on Wall Street to find his purpose in serving others slowly waved back and sang along. Soon, the song got over and the audience of four hundred odd,  20 somethings applauded cherishing the moment. This was one of the several moments that made an impact on me and had a strong calling to participate in social enterprises in the 8000 kilometers long annual train journey - Jagriti Yatra.&lt;/p&gt;
-
-&lt;p&gt;Jagriti Yatra is a fifteen day long journey across India covering more than 8000 kilometers. During the course of the journey, participants, fondly called Yatris, stop by towns in cities in both urban and rural India meeting social entrepreneurs and learning about their ventures. While social entrepreneurship and enterprise led development are the primary themes of the journey, a major theme of the journey is what is usually dubbed as “the inner journey”, or the self discovery. Meeting hundreds of people from diverse background, all the way from San Francisco in the United States to Tilonia in Rajasthan, India; spending a considerable time in bonding with the peers and being involved in intellectual discussions on development is what forms most of the later.&lt;/p&gt;
-
-&lt;p&gt;Like the past years, the 2014 Jagriti Yatra started on a chilly Christmas eve at the Tata Institute of Social Sciences in Mumbai. As the inaugural program proceeded, the chief guest, Meera Sanyal made a statement saying “&amp;hellip;your lives will be changed and you will form friendships that will last for the rest of your lives…”. Little had most people in the audience known that this statement would come true for them.&lt;/p&gt;
-
-&lt;p&gt;An hour after midnight of the Christmas day, the train arrived at the platform on Lokmanya Tilak Terminus, two hours behind its original schedule. Tired and exhausted, the participants made their way into their pre allocated bogies, their homes for next two weeks. What was in store for the yatris was a lifetime of learning which could hardly by purely academic means.&lt;/p&gt;
-
-&lt;p&gt;The yatra served not only as a platform to gain inspiration for enterprise led development, but also provided a wide diaspora of people whose stories inspired during the journey in the train and even beyond. From, meeting the truly inspirational “Solar Engineers” from Barefoot College; old grandmothers who’ve travelled all the way across the world to get training at a small village named Tilonia in Rajasthan, to visiting the ancient Nalanda ruins, the Yatra helped the yatris sketch out a vision for a much prosperous future.
-In many ways, the interactions in the Yatra can be compared to living through an experience which can be possibly be only analogous to the “people stories”  illustrated in Humans of New York.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Cross posted to &lt;a href=&#34;http://nitw101.com/&#34;&gt;NIT Warangal 101&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
-</description>
+      <description>“Whatever grows will grow,
+Whatever dies will die
+Whatever works will work
+Whatever flies will fly,
+Whatever fails will fail
+What’s meant to soar will soar,
+I am planting seeds nothing more”
+As the crowd started to sing along the chorus, the singer, a Wharton educated young man who gave up a career on Wall Street to find his purpose in serving others slowly waved back and sang along. Soon, the song got over and the audience of four hundred odd, 20 somethings applauded cherishing the moment.</description>
     </item>
     
     <item>
@@ -141,10 +91,8 @@ In many ways, the interactions in the Yatra can be compared to living through an
       <pubDate>Sat, 11 Apr 2015 16:05:15 +0530</pubDate>
       
       <guid>https://blog.aish.io/about/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m Aish. I&amp;rsquo;m a software engineer.&lt;/p&gt;
-
-&lt;p&gt;You can reach out to me on Twitter at @aishrajdahal.&lt;/p&gt;
-</description>
+      <description>I&amp;rsquo;m Aish. I&amp;rsquo;m a software engineer.
+You can reach out to me on Twitter at @aishrajdahal.</description>
     </item>
     
   </channel>

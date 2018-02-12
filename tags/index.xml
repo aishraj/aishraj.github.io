@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on On Software and other things</title>
+    <link>https://blog.aish.io/tags/</link>
+    <description>Recent content in Tags on On Software and other things</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jun 2015 09:46:25 +0530</lastBuildDate>
+    
+	<atom:link href="https://blog.aish.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Founders</title>
+      <link>https://blog.aish.io/tags/founders/</link>
+      <pubDate>Wed, 24 Jun 2015 09:46:25 +0530</pubDate>
+      
+      <guid>https://blog.aish.io/tags/founders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Indian Railways</title>
+      <link>https://blog.aish.io/tags/indian-railways/</link>
+      <pubDate>Sat, 11 Apr 2015 16:57:37 +0530</pubDate>
+      
+      <guid>https://blog.aish.io/tags/indian-railways/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jagriti Yatra</title>
+      <link>https://blog.aish.io/tags/jagriti-yatra/</link>
+      <pubDate>Wed, 24 Jun 2015 09:46:25 +0530</pubDate>
+      
+      <guid>https://blog.aish.io/tags/jagriti-yatra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stanford</title>
+      <link>https://blog.aish.io/tags/stanford/</link>
+      <pubDate>Wed, 24 Jun 2015 09:46:25 +0530</pubDate>
+      
+      <guid>https://blog.aish.io/tags/stanford/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Travel</title>
+      <link>https://blog.aish.io/tags/travel/</link>
+      <pubDate>Sat, 11 Apr 2015 16:57:37 +0530</pubDate>
+      
+      <guid>https://blog.aish.io/tags/travel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Y Combinator</title>
+      <link>https://blog.aish.io/tags/y-combinator/</link>
+      <pubDate>Wed, 24 Jun 2015 09:46:25 +0530</pubDate>
+      
+      <guid>https://blog.aish.io/tags/y-combinator/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
