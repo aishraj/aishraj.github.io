@@ -6,10 +6,20 @@
     <description>Recent content on On Software and other things</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Sep 2016 20:54:13 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 12 Feb 2018 06:53:28 -0800</lastBuildDate>
     
 	<atom:link href="https://blog.aish.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Conway&#39;s Game of Life in WebAssembly</title>
+      <link>https://blog.aish.io/post/conways-game-of-life-in-webassembly-and-rust/</link>
+      <pubDate>Mon, 12 Feb 2018 06:53:28 -0800</pubDate>
+      
+      <guid>https://blog.aish.io/post/conways-game-of-life-in-webassembly-and-rust/</guid>
+      <description>Recently, after learning that the Rust compiler tool-chain, now supported WebAssembly as a target, I got interested in experimenting with WebAssembly. In order to explore how Rust could be used to write code that compiled to WebAssembly, I decided to implement Conway&amp;rsquo;s Game of Life. My goal was to have as much of the grid traversing logic done in Rust as possible.
+I started out by reading through a few chapters of the second edition of the Rust book.</description>
+    </item>
     
     <item>
       <title>Service discovery with mDNS, Raspberry Pi and Go</title>

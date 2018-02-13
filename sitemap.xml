@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.aish.io/post/conways-game-of-life-in-webassembly-and-rust/</loc>
+    <lastmod>2018-02-12T06:53:28-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.aish.io/post/service-discovery-with-mdns-raspberry-pi-and-go/</loc>
     <lastmod>2016-09-18T20:54:13-07:00</lastmod>
   </url>
@@ -67,13 +72,13 @@
   
   <url>
     <loc>https://blog.aish.io/</loc>
-    <lastmod>2016-09-18T20:54:13-07:00</lastmod>
+    <lastmod>2018-02-12T06:53:28-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.aish.io/post/</loc>
-    <lastmod>2016-09-18T20:54:13-07:00</lastmod>
+    <lastmod>2018-02-12T06:53:28-08:00</lastmod>
     <priority>0</priority>
   </url>
   
