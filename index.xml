@@ -6,10 +6,19 @@
     <description>Recent content on On Software and other things</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Feb 2018 06:53:28 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 10 Mar 2019 16:37:14 -0700</lastBuildDate>
     
 	<atom:link href="https://blog.aish.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Increasing leakiness</title>
+      <link>https://blog.aish.io/post/increasing-leakiness/</link>
+      <pubDate>Sun, 10 Mar 2019 16:37:14 -0700</pubDate>
+      
+      <guid>https://blog.aish.io/post/increasing-leakiness/</guid>
+      <description>Abstractions are ubiquitous in the implementation of any modern day software system. In fact, they are so universal that popular abstractions like files` are part of the not only the programming vocabulary but have found their place in mainstream user experience as well. The utility and ubiquity of abstractions is perhaps made more evident by the fact that the Fundamental Theorem of Software Engineering&amp;rsquo; which states that, &amp;lsquo;We can solve any problem by introducing an extra level of indirection&amp;rsquo;.</description>
+    </item>
     
     <item>
       <title>Conway&#39;s Game of Life in WebAssembly</title>

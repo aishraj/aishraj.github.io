@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Aishraj Dahal">
+<meta name="description" content="On software and other things.">
+<meta name="generator" content="Hugo 0.36" />
+<title>Increasing leakiness</title>
+<link rel="shortcut icon" href="https://blog.aish.io/images/favicon.ico">
+<link rel="stylesheet" href="https://blog.aish.io/css/style.css">
+<link rel="stylesheet" href="https://blog.aish.io/css/highlight.css">
+
+
+
+<link rel="stylesheet" href="https://blog.aish.io/css/monosocialiconsfont.css">
+
+
+
+<link href="https://blog.aish.io/index.xml" rel="alternate" type="application/rss+xml" title="On Software and other things" />
+
+
+<meta property="og:title" content="Increasing leakiness" />
+<meta property="og:description" content="Abstractions are ubiquitous in the implementation of any modern day software system. In fact, they are so universal that popular abstractions like files` are part of the not only the programming vocabulary but have found their place in mainstream user experience as well. The utility and ubiquity of abstractions is perhaps made more evident by the fact that the Fundamental Theorem of Software Engineering&rsquo; which states that, &lsquo;We can solve any problem by introducing an extra level of indirection&rsquo;." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blog.aish.io/post/increasing-leakiness/" />
+
+
+
+<meta property="article:published_time" content="2019-03-10T16:37:14-07:00"/>
+
+<meta property="article:modified_time" content="2019-03-10T16:37:14-07:00"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Increasing leakiness">
+<meta itemprop="description" content="Abstractions are ubiquitous in the implementation of any modern day software system. In fact, they are so universal that popular abstractions like files` are part of the not only the programming vocabulary but have found their place in mainstream user experience as well. The utility and ubiquity of abstractions is perhaps made more evident by the fact that the Fundamental Theorem of Software Engineering&rsquo; which states that, &lsquo;We can solve any problem by introducing an extra level of indirection&rsquo;.">
+
+
+<meta itemprop="datePublished" content="2019-03-10T16:37:14-07:00" />
+<meta itemprop="dateModified" content="2019-03-10T16:37:14-07:00" />
+<meta itemprop="wordCount" content="300">
+
+
+
+<meta itemprop="keywords" content="" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Increasing leakiness"/>
+<meta name="twitter:description" content="Abstractions are ubiquitous in the implementation of any modern day software system. In fact, they are so universal that popular abstractions like files` are part of the not only the programming vocabulary but have found their place in mainstream user experience as well. The utility and ubiquity of abstractions is perhaps made more evident by the fact that the Fundamental Theorem of Software Engineering&rsquo; which states that, &lsquo;We can solve any problem by introducing an extra level of indirection&rsquo;."/>
+<meta name="twitter:site" content="@https://www.twitter.com/aishrajdahal"/>
+
+
+    </head>
+<body>
+    <nav class="main-nav">
+	
+		<a href='https://blog.aish.io/'> <span class="arrow">←</span>Home</a>
+	
+
+	
+
+	
+		<a class="cta" href="https://blog.aish.io/index.xml">Subscribe</a>
+	
+</nav>
+
+    <section id="wrapper">
+        
+        
+<article class="post">
+    <header>
+        <h1>Increasing leakiness</h1>
+        <h2 class="subtitle"></h2>
+        <h2 class="headline">
+        March 10, 2019
+        <br>
+        
+        </h2>
+    </header>
+    <section id="post-body">
+        <p>Abstractions are ubiquitous in the implementation of any modern day software system. In fact, they are so universal that popular abstractions like <em>files</em>` are part of the not only the programming vocabulary but have found their place in mainstream user experience as well. The utility and ubiquity of abstractions is perhaps made more evident by the fact that the <em>Fundamental Theorem of Software Engineering&rsquo;</em> which states that, <em>&lsquo;We can solve any problem by introducing an extra level of indirection&rsquo;</em>.</p>
+
+<p>This fondness of abstractions stems from the desire in programmers to shy away from complexity. Complexity is what drives the use and adoption of abstractions. Good abstractions hide away the underlying complexity, enabling the user of the abstraction to achieve what they want without having to worry about the underlying details. On the other hand, overly abstracting away has a negative impact towards complexity of a system. Software implementations that overly abstract away aspects of a system&rsquo;s behavior make it difficult to understand and maintain. Ironically, software systems that do not rely on good abstractions, tend to have similar effect in increasing the overall complexity of the system. This conundrum regarding how much of abstraction is too much and how little is too little is an important one. Both too much and too little abstraction increases the complexity of a system.</p>
+
+<p>While there might be no silver bullet that solves the problem, one potential way of delaying the problem could increasing the amount of <a href="https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/">leakiness of an abstraction</a>. Such abstractions that are more leaky, hide away only the essential complexity of the underlying system and leave enough room for understanding the system. In turn, they are easier to understand and work with giving the programmer the flexibility of introducing their own leaky abstractions, thereby fulfilling the <em>Fundamental Theorem of Software Engineering</em>.</p>
+
+    </section>
+</article>
+
+<footer id="post-meta" class="clearfix"> 
+    <a href="https://twitter.com/aishrajdahal">
+    <img class="avatar" src="https://gravatar.com/avatar/a9f0a49858f056a56a6b7b6307c0e61f?s=100">
+    <div>
+        <span class="dark">Aishraj Dahal</span>
+        <span></span>
+    </div>
+    </a>
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fblog.aish.io%2fpost%2fincreasing-leakiness%2f - Increasing%20leakiness by @aishrajdahal"><span class="icon-twitter"> tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+
+    </section>
+</footer>
+
+
+
+<ul id="post-list" class="archive readmore">
+    <h3>Read more</h3>
+
+    
+    
+    
+        <li>
+            <a href="https://blog.aish.io/post/conways-game-of-life-in-webassembly-and-rust/">Conway&#39;s Game of Life in WebAssembly<aside class="dates">Feb 12 2018</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://blog.aish.io/post/service-discovery-with-mdns-raspberry-pi-and-go/">Service discovery with mDNS, Raspberry Pi and Go<aside class="dates">Sep 18 2016</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://blog.aish.io/post/debugging/">Debugging<aside class="dates">Aug 22 2016</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://blog.aish.io/post/side-projects/">Side Projects<aside class="dates">Aug 21 2016</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://blog.aish.io/post/do-you-need-a-linkedin-account/">Do you need a LinkedIn account ?<aside class="dates">Jun 18 2016</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://blog.aish.io/post/github-starsystem/">Discovery on Github<aside class="dates">Mar 25 2016</aside></a>
+        </li>
+    
+        <li>
+            <a href="https://blog.aish.io/post/bon-voyage/">Bon voyage<aside class="dates">Apr 11 2015</aside></a>
+        </li>
+    
+</ul>
+
+
+
+        <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    
+    <a class="symbol" href="https://www.github.com/aishraj">
+        circlegithub
+    </a>
+    
+    <a class="symbol" href="https://www.twitter.com/aishrajdahal">
+        circletwitterbird
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+        © Copyright 2019 Aishraj Dahal
+    
+    </p>
+</footer>
+
+    </section>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://blog.aish.io/js/main.js"></script>
+<script src="https://blog.aish.io/js/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-20524803-3', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+</body>
+</html>

@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.aish.io/post/increasing-leakiness/</loc>
+    <lastmod>2019-03-10T16:37:14-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.aish.io/post/conways-game-of-life-in-webassembly-and-rust/</loc>
     <lastmod>2018-02-12T06:53:28-08:00</lastmod>
   </url>
@@ -61,13 +66,13 @@
   
   <url>
     <loc>https://blog.aish.io/</loc>
-    <lastmod>2018-02-12T06:53:28-08:00</lastmod>
+    <lastmod>2019-03-10T16:37:14-07:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.aish.io/post/</loc>
-    <lastmod>2018-02-12T06:53:28-08:00</lastmod>
+    <lastmod>2019-03-10T16:37:14-07:00</lastmod>
     <priority>0</priority>
   </url>
   
