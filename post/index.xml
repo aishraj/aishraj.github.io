@@ -6,10 +6,19 @@
     <description>Recent content in Posts on On Software and other things</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Mar 2019 16:37:14 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 09 Jun 2019 10:51:17 -0700</lastBuildDate>
     
 	<atom:link href="https://blog.aish.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Computing and the future of South Asian languages</title>
+      <link>https://blog.aish.io/post/computing-and-the-future-of-south-asian-languages/</link>
+      <pubDate>Sun, 09 Jun 2019 10:51:17 -0700</pubDate>
+      
+      <guid>https://blog.aish.io/post/computing-and-the-future-of-south-asian-languages/</guid>
+      <description>For decades, the efforts involved in planning and implementation of software localization was far greater than the use of localized software for South Asian locales. Today, despite the increase in use of localized software, the percentage of users in South Asia, who use localized software remains at a fraction of the total user base. What is even more daunting is that a large chunk of users use the Latin Alphabet to use transliterated version of their native languages.</description>
+    </item>
     
     <item>
       <title>Increasing leakiness</title>
