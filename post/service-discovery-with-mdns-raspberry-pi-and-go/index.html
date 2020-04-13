@@ -4,10 +4,13 @@
     <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="author" content="ऐशराज दाहाल (Aish)">
-<meta name="description" content="On software and other things.">
+
+<meta name="author" content="Train of thoughts">
+
+<meta name="description" content="A blog by Aish Raj Dahal">
 <meta name="generator" content="Hugo 0.36" />
 <title>Service discovery with mDNS, Raspberry Pi and Go</title>
+<link href='https://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
 <link rel="shortcut icon" href="https://blog.aish.io/images/favicon.ico">
 <link rel="stylesheet" href="https://blog.aish.io/css/style.css">
 <link rel="stylesheet" href="https://blog.aish.io/css/highlight.css">
@@ -19,50 +22,6 @@
 
 
 <link href="https://blog.aish.io/index.xml" rel="alternate" type="application/rss+xml" title="On Software and other things" />
-
-
-<meta property="og:title" content="Service discovery with mDNS, Raspberry Pi and Go" />
-<meta property="og:description" content="Today, yet again, I re-formatted by Raspberry Pi. It has become a sort of a ritual for me to format my Raspberry Pi and try out something new on it. This time around however, as I had moved to a new apartment, logging into my Raspberry Pi meant that I had to change my /etc/hosts mapping.
-Now, /etc/hosts mapping had served my well but I had grown tired of updating this file, every time moved to a new place, despite of the static IPs that I assign." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://blog.aish.io/post/service-discovery-with-mdns-raspberry-pi-and-go/" />
-
-
-
-<meta property="article:published_time" content="2016-09-18T20:54:13-07:00"/>
-
-<meta property="article:modified_time" content="2016-09-18T20:54:13-07:00"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta itemprop="name" content="Service discovery with mDNS, Raspberry Pi and Go">
-<meta itemprop="description" content="Today, yet again, I re-formatted by Raspberry Pi. It has become a sort of a ritual for me to format my Raspberry Pi and try out something new on it. This time around however, as I had moved to a new apartment, logging into my Raspberry Pi meant that I had to change my /etc/hosts mapping.
-Now, /etc/hosts mapping had served my well but I had grown tired of updating this file, every time moved to a new place, despite of the static IPs that I assign.">
-
-
-<meta itemprop="datePublished" content="2016-09-18T20:54:13-07:00" />
-<meta itemprop="dateModified" content="2016-09-18T20:54:13-07:00" />
-<meta itemprop="wordCount" content="289">
-
-
-
-<meta itemprop="keywords" content="" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Service discovery with mDNS, Raspberry Pi and Go"/>
-<meta name="twitter:description" content="Today, yet again, I re-formatted by Raspberry Pi. It has become a sort of a ritual for me to format my Raspberry Pi and try out something new on it. This time around however, as I had moved to a new apartment, logging into my Raspberry Pi meant that I had to change my /etc/hosts mapping.
-Now, /etc/hosts mapping had served my well but I had grown tired of updating this file, every time moved to a new place, despite of the static IPs that I assign."/>
-
 
     </head>
 <body>
@@ -86,9 +45,9 @@ Now, /etc/hosts mapping had served my well but I had grown tired of updating thi
         <h1>Service discovery with mDNS, Raspberry Pi and Go</h1>
         <h2 class="subtitle"></h2>
         <h2 class="headline">
-        September 18, 2016
-        <br>
-        
+            September 18, 2016
+            <br>
+            
         </h2>
     </header>
     <section id="post-body">
@@ -109,29 +68,14 @@ Now, /etc/hosts mapping had served my well but I had grown tired of updating thi
     </section>
 </article>
 
-<footer id="post-meta" class="clearfix"> 
+<footer id="post-meta" class="clearfix">
     
-    <img class="avatar" src="https://gravatar.com/avatar/a9f0a49858f056a56a6b7b6307c0e61f?s=100">
-    <div>
-        <span class="dark">ऐशराज दाहाल (Aish)</span>
-        <span></span>
-    </div>
-    
-    <section id="sharing">
-        <a class="twitter" href="https://twitter.com/intent/tweet?text=https%3a%2f%2fblog.aish.io%2fpost%2fservice-discovery-with-mdns-raspberry-pi-and-go%2f - Service%20discovery%20with%20mDNS%2c%20Raspberry%20Pi%20and%20Go "><span class="icon-twitter"> tweet</span></a>
-
-<a class="facebook" href="#" onclick="
-    window.open(
-      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
-      'facebook-share-dialog',
-      'width=626,height=436');
-    return false;"><span class="icon-facebook-rect"> Share</span>
-</a>
-
-    </section>
+        <img class="avatar" src="https://gravatar.com/avatar/a9f0a49858f056a56a6b7b6307c0e61f?s=100">
+        <div>
+            <span class="dark">Aish Raj Dahal</span>
+            <span></span>
+        </div>
 </footer>
-
-
 
 <ul id="post-list" class="archive readmore">
     <h3>Read more</h3>
@@ -181,27 +125,12 @@ Now, /etc/hosts mapping had served my well but I had grown tired of updating thi
 
         <footer id="footer">
     
-        <div id="social">
-
-	
-	
-    
-    <a class="symbol" href="https://www.github.com/aishraj">
-        circlegithub
-    </a>
-    
-
-
-</div>
-
-    
     <p class="small">
-    
-        © Copyright 2020 ऐशराज दाहाल (Aish)
-    
+        
+        Aish Raj Dahal CC BY-SA 2020
+        
     </p>
 </footer>
-
     </section>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://blog.aish.io/js/main.js"></script>
@@ -210,16 +139,6 @@ Now, /etc/hosts mapping had served my well but I had grown tired of updating thi
 
 
 
-
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-20524803-3', 'auto');
-ga('send', 'pageview');
-</script>
 
 
 </body>
